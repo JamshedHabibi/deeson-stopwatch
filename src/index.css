@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('/background.jpg');
+  background-size: 1550px;
+}
+
+#displayed-time {
+  font-size: 5.3em;
+  color: white;
+}
+
+.displayed-time-unit {
+  border-right: 1px solid white;
+}
+
+.displayed-time-unit-description {
+  font-size: 0.2em;
+}
+
+.button {
+  padding: 5px 15px 5px 15px;
+  font-size: 1.4em;
+  background: none;
+  cursor: pointer;
+  border: 1px solid white;
+  color: white;
+  transition: all 0.2s ease-in-out;
+}
+
+.button:hover {
+  color: rgba(0, 0, 0, 0.767);
+  background: white;
+}
+
+#lap-data-table {
+  color: white;
+  font-size: 1.3em;
+}
+
+.reset-laptime-button {
+  padding: 5px 15px 5px 15px;
+  background: none;
+  color: rgb(233, 80, 80);
+  border: 1px solid rgb(233, 80, 80);
+  transition: all 0.2s ease-in-out;
+  cursor: pointer
+}
+
+.reset-laptime-button:hover {
+  background: rgb(233, 80, 80);
+  color: white;
+}
+
+.lap-data-from-local-storage {
+  color: white;
+  position: absolute;
+  right: 4vw;
+  bottom: 5vh;
+}
