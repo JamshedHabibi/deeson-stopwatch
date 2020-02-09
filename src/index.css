@@ -58,3 +58,35 @@ body {
   right: 4vw;
   bottom: 5vh;
 }
+
+@media screen and (max-width: 768px) {
+  #displayed-time {
+    font-size: 4em;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  #displayed-time {
+    font-size: 3em;
+  }
+
+  .reset-lap-buttons {
+    position: relative;
+    top: -10vh;
+  }
+
+  #lap-data-table {
+    position: relative;
+    top: -10vh;
+    font-size: 1.1em;
+  }
+
+  .reset-laptime-button {
+    position: relative;
+    top: -13vh;
+  }
+
+  .lap-data-from-local-storage {
+    position: relative;
+  }
+}

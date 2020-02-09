@@ -87,12 +87,12 @@ class Provider extends Component {
 
 				//displaying lap number
 				let newLap = document.createElement('div');
-				newLap.className = 'col-2 text-center';
+				newLap.className = 'col-md-2 col-12 text-center';
 				newLap.innerHTML = 'Lap ' + lapData.length.toString();
 
 				//displaying lap number time
 				let newLapTime = document.createElement('div');
-				newLapTime.className = 'col-2 text-center';
+				newLapTime.className = 'col-md-2 col-12 text-center';
 				newLapTime.innerHTML = localStorage.getItem(
 					`lapData${this.state.lapData.length}`
 				);

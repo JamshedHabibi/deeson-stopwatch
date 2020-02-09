@@ -10,7 +10,7 @@ export default class Timer extends Component {
 					return (
 						<div className="col-12 text-center">
 							<p className="row justify-content-center" id="displayed-time">
-								<span className="px-3 displayed-time-unit">
+								<span className="px-md-3 col-xs-12 displayed-time-unit">
 									<span className="row">
 										<span className="col-12" id="hours">
 											{hours.toString().length > 1 ? hours : '0' + hours.toString()}
@@ -21,7 +21,7 @@ export default class Timer extends Component {
 									</span>
 								</span>
 
-								<span className="px-3 displayed-time-unit">
+								<span className="px-md-3 col-xs-12 displayed-time-unit">
 									<span className="row">
 										<span className="col-12" id="minutes">
 											{minutes.toString().length > 1 ? minutes : '0' + minutes.toString()}
@@ -32,7 +32,7 @@ export default class Timer extends Component {
 									</span>
 								</span>
 
-								<span className="px-3 displayed-time-unit">
+								<span className="px-md-3 ml-2 ml-md-0 col-xs-12 displayed-time-unit">
 									<span className="row">
 										<span className="col-12" id="seconds">
 											{seconds.toString().length > 1 ? seconds : '0' + seconds.toString()}
@@ -43,7 +43,7 @@ export default class Timer extends Component {
 									</span>
 								</span>
 
-								<span className="px-3">
+								<span className="px-md-3 col-xs-12">
 									<span className="row">
 										<span className="col-12" id="milliseconds">
 											{milliseconds.toString().length > 1
